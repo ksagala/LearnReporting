@@ -2,7 +2,8 @@
 
 This project is based on Learn Organizational Reporting - https://learn.microsoft.com/en-us/training/support/org-reporting
 
-Original pbit template was published by Microsoft on https://github.com/MicrosoftDocs/mslearn-organizational-reporting (UPDATE - recently updated two months ago after a year of inactivity). Here is my own version with certification part prepared by myself. Of course everyone can modify it accourding to specific company requirements.
+Original pbit template was published by Microsoft on https://github.com/MicrosoftDocs/mslearn-organizational-reporting (UPDATE - template was updated on January 27 this year).
+Here is my own version with certification part prepared by myself in parallel to Microsoft internal update of template. Of course everyone can modify it accourding to specific company requirements.
 
 To use Power BI template first you must configure Azure Data Share service (only receive datashare) to synchronize data from Microsoft Learn to internal Azure SQL Database, as described in documentation mentioned above.
 
