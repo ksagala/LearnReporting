@@ -11,8 +11,11 @@ Before importing this template, you must create in this Azure SQL database addit
 
 So user names must be imported from Azure Active Directory (manual import also mentioned in documentation) to have any information about learn and certification progress.
 
-There are only first names published in dashboard to make it more user friendly.
+There are only first names published in dashboard to make it more user friendly, but to keep privacy.
 
 When you have additional table, you must import users from your Azure AD to this table, to see some additional information about users.
 
-After you import pbit template, you must change tenant id in dataflows and npw it should works properly.
+After you import pbit template MSLearnLearningProgress.pbit to Power BI Desktop, you must change tenant id in dataflows. The easienst way to do it, is to choose from ribbon feature "Transform Data".
+Than when Power Query Editor window open, you should refresh all queries (visible in left panel) and replace all table names in all queries where errors are shown (best way is to open Advanced Editor to replace table name from template to your specific table name).
+
+After those steps report shoud synchronize properly.
