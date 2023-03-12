@@ -19,3 +19,5 @@ After you import pbit template MSLearnLearningProgress.pbit to Power BI Desktop,
 Than when Power Query Editor window open, you should refresh all queries (visible in left panel) and replace all table names in all queries where errors are shown (best way is to open Advanced Editor to replace table name from template to your specific table name).
 
 After those steps report shoud synchronize properly.
+
+Configration is shown also on my session from Power Platform Global Bootcamp Poland on youtube - https://www.youtube.com/watch?v=ssXZLPJ7wpU
